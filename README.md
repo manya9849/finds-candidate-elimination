@@ -21,7 +21,7 @@ The goal is to learn a target concept from a labeled dataset by exploring the **
 
 ---
 
-## 📊 Dataset Description
+##  Dataset Description
 
 A **synthetic dataset** with:
 - **6 features**
@@ -43,9 +43,9 @@ A **synthetic dataset** with:
 
 ---
 
-## ⚙️ Algorithms Implemented
+##  Algorithms Implemented
 
-### 🔹 1. Find-S Algorithm
+###  1. Find-S Algorithm
 
 #### Description:
 - Starts with **most specific hypothesis**
@@ -58,7 +58,7 @@ A **synthetic dataset** with:
 
 ---
 
-### 🔹 2. Candidate Elimination Algorithm
+###  2. Candidate Elimination Algorithm
 
 #### Description:
 Maintains:
@@ -78,7 +78,7 @@ Maintains:
 
 ---
 
-## 🧩 Version Space
+##  Version Space
 
 Version Space = All hypotheses between **S and G**
 
