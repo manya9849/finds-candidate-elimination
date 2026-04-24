@@ -23,7 +23,7 @@ def main():
         for line in output_lines:
             f.write(line + "\n")
 
-    # Also print (optional)
+    # Also print 
     print("\n".join(output_lines))
 
 if __name__ == "__main__":
