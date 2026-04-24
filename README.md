@@ -104,8 +104,3 @@ A candidate is likely selected if:
 
 ---
 
-##  Output File
-
-The same results are stored in:
----
-
