@@ -1,0 +1,18 @@
+Dataset:
+     CGPA Aptitude Internship Communication Projects Adaptability Result
+0    High   Strong        Yes          Good     Many         Fast    Yes
+1    High     Weak        Yes          Good      Few         Fast    Yes
+2     Low   Strong         No          Good     Many         Slow     No
+3    High   Strong         No          Poor     Many         Fast     No
+4  Medium   Strong        Yes          Good     Many         Fast    Yes
+5     Low     Weak        Yes          Good      Few         Slow     No
+
+Find-S Hypothesis:
+['?', '?', 'Yes', 'Good', '?', 'Fast']
+
+Specific Boundary (S):
+[['?', '?', 'Yes', 'Good', '?', 'Fast']]
+
+General Boundary (G):
+['?', '?', 'Yes', '?', '?', 'Fast']
+['?', '?', '?', 'Good', '?', 'Fast']
