@@ -19,7 +19,7 @@ The goal is to learn a target concept from a labeled dataset by exploring the **
 ---
 
 
----
+
 
 ##  Dataset Description
 
@@ -38,14 +38,14 @@ A **synthetic dataset** with:
 ### Target:
 - **Result (Yes / No)** → Whether candidate gets selected
 
----
+
 
 
 ---
 
 ##  Algorithms Implemented
 
-###  1. Find-S Algorithm
+### 🔹 1. Find-S Algorithm
 
 #### Description:
 - Starts with **most specific hypothesis**
@@ -81,11 +81,31 @@ Maintains:
 ##  Version Space
 
 Version Space = All hypotheses between **S and G**
-
+---
 ### Interpretation:
 A candidate is selected if:
 - Internship = Yes OR Communication = Good
 - AND Adaptability = Fast
 
+- The **Find-S algorithm** identifies a single most specific hypothesis:
+  - Internship must be **Yes**
+  - Communication must be **Good**
+  - Adaptability must be **Fast**
+
+- The **Candidate Elimination algorithm** defines a **version space**:
+  - All hypotheses between **S and G**
+  - Represents all consistent concepts
+---
+### ✔ Final Insight
+
+A candidate is likely selected if:
+- They have **Internship = Yes OR Good Communication**
+- AND **Adaptability = Fast**
+
+---
+
+##  Output File
+
+The same results are stored in:
 ---
 
